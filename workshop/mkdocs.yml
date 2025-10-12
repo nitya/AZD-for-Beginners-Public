@@ -16,11 +16,11 @@
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/
 # ---------------------------------
 # General ...................................................
-site_name: AZD for Beginners
+site_name: AZD for AI Developers
 site_url: https://github.com/microsoft/azd-for-beginners
 site_author: Microsoft
 site_description: >-
-  Workshop for beginners on Azure Developer tools
+  Deconstruct & Learn AZD using the Get Started With AI Agents Template 
 
 # Repository .................................................
 repo_name: microsoft/azd-for-beginners
@@ -128,12 +128,3 @@ markdown_extensions:
 
 # Navigation  ...............................................
 nav:
-  - Introduction: instructions/0-Introduction.md
-  - Workshop:
-    - "1. Select AI Template": instructions/1-Select-AI-Template.md
-    - "2. Validate AI Template": instructions/2-Validate-AI-Template.md
-    - "3. Deconstruct AI Template": instructions/3-Deconstruct-AI-Template.md
-    - "4. Configure AI Template": instructions/4-Configure-AI-Template.md
-    - "5. Customize AI Template": instructions/5-Customize-AI-Template.md
-    - "6. Teardown Infrastructure": instructions/6-Teardown-Infrastructure.md
-    - "7. Wrap-up & Next Steps": instructions/7-Wrap-up.md
