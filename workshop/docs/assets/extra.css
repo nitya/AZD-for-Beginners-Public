@@ -45,13 +45,15 @@
 /* Custom Prompt Admonition with GitHub Copilot Icon */
 .md-typeset .admonition.prompt,
 .md-typeset details.prompt {
-  border-color: #0EA5E9;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(135deg, #FF69B4 0%, #9B59B6 50%, #3498DB 100%) 1;
 }
 
 .md-typeset .prompt > .admonition-title,
 .md-typeset .prompt > summary {
-  background: linear-gradient(135deg, rgba(14, 165, 233, 0.1) 0%, rgba(6, 182, 212, 0.1) 100%);
-  border-color: #0EA5E9;
+  background: linear-gradient(135deg, rgba(255, 105, 180, 0.1) 0%, rgba(155, 89, 182, 0.1) 50%, rgba(52, 152, 219, 0.1) 100%);
+  border-image: linear-gradient(135deg, #FF69B4 0%, #9B59B6 50%, #3498DB 100%) 1;
 }
 
 /* Light theme - dark logo */
@@ -67,3 +69,32 @@
 [data-md-color-scheme="slate"] .md-typeset .prompt > summary::before {
   background-color: #f9fafb;
 }
+
+/* Custom Lab Admonition with Beaker Icon and Green Gradient */
+.md-typeset .admonition.lab,
+.md-typeset details.lab {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(135deg, #10B981 0%, #059669 50%, #047857 100%) 1;
+}
+
+.md-typeset .lab > .admonition-title,
+.md-typeset .lab > summary {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.1) 50%, rgba(4, 120, 87, 0.1) 100%);
+  border-image: linear-gradient(135deg, #10B981 0%, #059669 50%, #047857 100%) 1;
+}
+
+/* Light theme - dark beaker icon */
+.md-typeset .lab > .admonition-title::before,
+.md-typeset .lab > summary::before {
+  background-color: #1f2937;
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M9 3h6v7l4.5 6.5a2 2 0 0 1-1.66 3.5H6.16a2 2 0 0 1-1.66-3.5L9 10V3z'/><path d='M9 3v3'/><path d='M15 3v3'/><circle cx='12' cy='15' r='1.5'/></svg>");
+          mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M9 3h6v7l4.5 6.5a2 2 0 0 1-1.66 3.5H6.16a2 2 0 0 1-1.66-3.5L9 10V3z'/><path d='M9 3v3'/><path d='M15 3v3'/><circle cx='12' cy='15' r='1.5'/></svg>");
+}
+
+/* Dark theme - light beaker icon */
+[data-md-color-scheme="slate"] .md-typeset .lab > .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset .lab > summary::before {
+  background-color: #f9fafb;
+}
+
