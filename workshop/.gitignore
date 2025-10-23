@@ -1,0 +1,8 @@
+# Ignore the AZD setup directory (contains initialized template and environment-specific configs)
+.azd-setup/
+
+# Ignore MkDocs build output (static site files generated from docs)
+site/
+
+# Ignore More Labs for now
+More-Labs/
