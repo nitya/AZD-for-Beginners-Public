@@ -12,22 +12,28 @@
         <meta name="author" content="Microsoft">
       
       
+        <link rel="canonical" href="https://github.com/microsoft/azd-for-beginners/Core%20Labs/09-Deconstruct-Source/">
       
       
+        <link rel="prev" href="../08-Deconstruct-Config/">
       
-      <link rel="icon" href="/microsoft/azd-for-beginners/assets/images/favicon.png">
+      
+        <link rel="next" href="../10-Deconstruct-Infra/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
     
     
       
-        <title>AZD for AI Developers</title>
+        <title>9. Deconstruct src/ - AZD for AI Developers</title>
       
     
     
-      <link rel="stylesheet" href="/microsoft/azd-for-beginners/assets/stylesheets/main.e53b48f4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.e53b48f4.min.css">
       
         
-        <link rel="stylesheet" href="/microsoft/azd-for-beginners/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="/microsoft/azd-for-beginners/assets/extra.css">
+      <link rel="stylesheet" href="../../assets/extra.css">
     
-    <script>__md_scope=new URL("/microsoft/azd-for-beginners/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -102,6 +108,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#9-deconstruct-src" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -114,9 +125,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/microsoft/azd-for-beginners/." title="AZD for AI Developers" class="md-header__button md-logo" aria-label="AZD for AI Developers" data-md-component="logo">
+    <a href="../.." title="AZD for AI Developers" class="md-header__button md-logo" aria-label="AZD for AI Developers" data-md-component="logo">
       
-  <img src="/microsoft/azd-for-beginners/assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -133,7 +144,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              9. Deconstruct src/
             
           </span>
         </div>
@@ -236,11 +247,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/microsoft/azd-for-beginners/Core%20Labs/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -282,9 +295,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/microsoft/azd-for-beginners/." title="AZD for AI Developers" class="md-nav__button md-logo" aria-label="AZD for AI Developers" data-md-component="logo">
+    <a href="../.." title="AZD for AI Developers" class="md-nav__button md-logo" aria-label="AZD for AI Developers" data-md-component="logo">
       
-  <img src="/microsoft/azd-for-beginners/assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     AZD for AI Developers
@@ -308,6 +321,8 @@
       
   
   
+    
+  
   
   
     
@@ -349,20 +364,21 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/microsoft/azd-for-beginners/Core%20Labs/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -375,13 +391,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             Core Labs
@@ -397,7 +413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/0-Welcome/" class="md-nav__link">
+      <a href="../0-Welcome/" class="md-nav__link">
         
   
   
@@ -420,7 +436,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/01-Discover-AZD/" class="md-nav__link">
+      <a href="../01-Discover-AZD/" class="md-nav__link">
         
   
   
@@ -443,7 +459,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/02-Discover-Templates/" class="md-nav__link">
+      <a href="../02-Discover-Templates/" class="md-nav__link">
         
   
   
@@ -466,7 +482,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/03-Discover-Galleries/" class="md-nav__link">
+      <a href="../03-Discover-Galleries/" class="md-nav__link">
         
   
   
@@ -489,7 +505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/04-Discover-AI-Starter/" class="md-nav__link">
+      <a href="../04-Discover-AI-Starter/" class="md-nav__link">
         
   
   
@@ -512,7 +528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/05-Deploy-AI-Starter/" class="md-nav__link">
+      <a href="../05-Deploy-AI-Starter/" class="md-nav__link">
         
   
   
@@ -535,7 +551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/06-Validate-AI-Starter/" class="md-nav__link">
+      <a href="../06-Validate-AI-Starter/" class="md-nav__link">
         
   
   
@@ -558,7 +574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/07-Deconstruct-Features/" class="md-nav__link">
+      <a href="../07-Deconstruct-Features/" class="md-nav__link">
         
   
   
@@ -581,7 +597,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/08-Deconstruct-Config/" class="md-nav__link">
+      <a href="../08-Deconstruct-Config/" class="md-nav__link">
         
   
   
@@ -601,10 +617,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/09-Deconstruct-Source/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    9. Deconstruct src/
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -615,6 +653,113 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-source-code-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Source Code Folder
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#application-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Application Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-explore-the-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise: Explore the Code
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercise: Explore the Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-navigate-to-source-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      1: Navigate to Source Directory
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-identify-frontend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      2: Identify Frontend Code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-identify-backend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      3: Identify Backend Code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-review-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      4: Review Dependencies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-check-container-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      5: Check Container Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-ask-copilot-for-help" class="md-nav__link">
+    <span class="md-ellipsis">
+      6: Ask Copilot For Help
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -627,7 +772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/10-Deconstruct-Infra/" class="md-nav__link">
+      <a href="../10-Deconstruct-Infra/" class="md-nav__link">
         
   
   
@@ -650,7 +795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/11-Deconstruct-Env/" class="md-nav__link">
+      <a href="../11-Deconstruct-Env/" class="md-nav__link">
         
   
   
@@ -673,7 +818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/12-Customize-Template/" class="md-nav__link">
+      <a href="../12-Customize-Template/" class="md-nav__link">
         
   
   
@@ -696,7 +841,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/microsoft/azd-for-beginners/Core%20Labs/13-Challenge-Yourself/" class="md-nav__link">
+      <a href="../13-Challenge-Yourself/" class="md-nav__link">
         
   
   
@@ -736,6 +881,103 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-source-code-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Source Code Folder
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#application-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Application Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-explore-the-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise: Explore the Code
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercise: Explore the Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-navigate-to-source-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      1: Navigate to Source Directory
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-identify-frontend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      2: Identify Frontend Code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-identify-backend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      3: Identify Backend Code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-review-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      4: Review Dependencies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-check-container-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      5: Check Container Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-ask-copilot-for-help" class="md-nav__link">
+    <span class="md-ellipsis">
+      6: Ask Copilot For Help
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -747,8 +989,97 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="9-deconstruct-src">9. Deconstruct <code>src/</code><a class="headerlink" href="#9-deconstruct-src" title="Permanent link">&para;</a></h1>
+<div class="admonition quote">
+<p><strong>Objective:</strong> Understand what the <code>src/</code> folder contains <br/>
+<strong>Estimate:</strong> 5 mins <br/>
+<strong>Analogy:</strong> <a href="../0-Welcome/#2-the-home-builder-analogy">The Pre-Fab Starter Home</a></p>
+<ul>
+<li><a href="#the-source-code-folder">The Source Code Folder</a></li>
+<li><a href="#application-structure">Application Structure</a></li>
+<li><a href="#exercise-explore-the-code">Exercise: Explore the Code</a></li>
+</ul>
+</div>
+<hr />
+<h2 id="the-source-code-folder">The Source Code Folder<a class="headerlink" href="#the-source-code-folder" title="Permanent link">&para;</a></h2>
+<p>The <code>src/</code> directory contains your application code - the programs users interact with.</p>
+<p>For this AI agent template:
+• Web UI (React/JavaScript frontend)<br />
+• API layer (Python backend)<br />
+• Agent configuration files<br />
+• Static assets (CSS, images)  </p>
+<h2 id="application-structure">Application Structure<a class="headerlink" href="#application-structure" title="Permanent link">&para;</a></h2>
+<p>Typical layout:</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code>src/
+├── frontend/          # Web UI code
+├── backend/           # API and agent logic
+├── requirements.txt   # Python dependencies
+├── package.json       # JavaScript dependencies  
+└── Dockerfile         # Container configuration
+</code></pre></div></td></tr></table></div>
+<h2 id="exercise-explore-the-code">Exercise: Explore the Code<a class="headerlink" href="#exercise-explore-the-code" title="Permanent link">&para;</a></h2>
+<div class="admonition lab">
+<p class="admonition-title">In this exercise, you'll navigate the <code>src/</code> folder to understand the application structure and key code files.</p>
+</div>
+<p>Let's explore your application source code.</p>
+<h3 id="1-navigate-to-source-directory">1: Navigate to Source Directory<a class="headerlink" href="#1-navigate-to-source-directory" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>src
+ls<span class="w"> </span>-la
+</code></pre></div>
+<h3 id="2-identify-frontend-code">2: Identify Frontend Code<a class="headerlink" href="#2-identify-frontend-code" title="Permanent link">&para;</a></h3>
+<p>Look for:
+- <code>index.html</code> or <code>App.tsx</code> - Main UI entry point<br />
+- React/JavaScript files<br />
+- Static assets (CSS, images)  </p>
+<h3 id="3-identify-backend-code">3: Identify Backend Code<a class="headerlink" href="#3-identify-backend-code" title="Permanent link">&para;</a></h3>
+<p>Find Python files like:
+- <code>main.py</code> - API entry point<br />
+- Agent configuration files<br />
+- Business logic modules  </p>
+<h3 id="4-review-dependencies">4: Review Dependencies<a class="headerlink" href="#4-review-dependencies" title="Permanent link">&para;</a></h3>
+<p>Check dependency files:</p>
+<div class="highlight"><pre><span></span><code>cat<span class="w"> </span>requirements.txt
+</code></pre></div>
+<p>This shows which Python packages the application needs.</p>
+<h3 id="5-check-container-configuration">5: Check Container Configuration<a class="headerlink" href="#5-check-container-configuration" title="Permanent link">&para;</a></h3>
+<p>View the Dockerfile:</p>
+<div class="highlight"><pre><span></span><code>cat<span class="w"> </span>Dockerfile
+</code></pre></div>
+<p>This defines how your app runs in a container.</p>
+<h3 id="6-ask-copilot-for-help">6: Ask Copilot For Help<a class="headerlink" href="#6-ask-copilot-for-help" title="Permanent link">&para;</a></h3>
+<p>Want to explore more? Try asking Copilot:</p>
+<ol>
+<li>How do I add new Python dependencies to the project?</li>
+<li>What's the difference between frontend and backend code in this template?</li>
+<li>How can I modify the agent's behavior?</li>
+</ol>
+<hr />
+<p><strong>Next:</strong> Explore the infrastructure code!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -768,6 +1099,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../08-Deconstruct-Config/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 8. Deconstruct: azure.yaml">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                8. Deconstruct: azure.yaml
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../10-Deconstruct-Infra/" class="md-footer__link md-footer__link--next" aria-label="Next: 10. Deconstruct infra/">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                10. Deconstruct infra/
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
@@ -825,10 +1194,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/microsoft/azd-for-beginners/", "features": ["navigation.instant", "navigation.expand", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "header.sticky", "navigation.path", "navigation.indexes", "navigation.top", "toc.follow", "navigation.footer", "content.code.copy", "content.tabs.link", "navigation.sticky"], "search": "/microsoft/azd-for-beginners/assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.expand", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "header.sticky", "navigation.path", "navigation.indexes", "navigation.top", "toc.follow", "navigation.footer", "content.code.copy", "content.tabs.link", "navigation.sticky"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/microsoft/azd-for-beginners/assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
     
   </body>
