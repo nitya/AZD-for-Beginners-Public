@@ -1,63 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/0-Welcome/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/01-Discover-AZD/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/01-Discover/01-azure-cli/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/02-Discover-Templates/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/01-Discover/02-azd-templates/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/03-Discover-Galleries/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/01-Discover/03-template-sources/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/04-Discover-AI-Starter/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/01-Discover/04-template-selection/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/05-Deploy-AI-Starter/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/02-Deploy/01-github-codespaces/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/06-Validate-AI-Starter/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/02-Deploy/02-deploy-app/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/07-Deconstruct-Features/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/02-Deploy/03-validate-features/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/08-Deconstruct-Config/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/02-Deploy/04-explore-app/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/09-Deconstruct-Source/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/03-Deconstruct/01-azure-yaml/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/10-Deconstruct-Infra/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/03-Deconstruct/02-infra-folder/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/11-Deconstruct-Env/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/03-Deconstruct/03-src-folder/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/12-Customize-Template/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/03-Deconstruct/04-azure-folder/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
     <url>
-         <loc>https://github.com/microsoft/azd-for-beginners/Core%20Labs/13-Challenge-Yourself/</loc>
-         <lastmod>2025-10-23</lastmod>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/03-Deconstruct/05-readme/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/04-Customize/01-add-agent/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/04-Customize/02-add-search/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/04-Customize/03-add-models/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/04-Customize/04-add-evaluations/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/04-Customize/05-tracing-monitoring/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/04-Customize/06-red-teaming/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/05-Challenge/01-customize-template/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/guide/05-Challenge/02-new-template/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/01-try-azd/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/02-explore-templates/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/03-find-templates/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/04-select-template/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/05-setup-codespace/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/06-deploy-solution/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/07-validate-deployment/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/08-explore-features/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/09-understand-manifest/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/10-explore-infrastructure/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/11-explore-source-code/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/12-understand-azure-folder/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/13-review-documentation/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/14-add-agent/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/15-add-search/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/16-add-models/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/17-add-evaluations/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/18-tracing-monitoring/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/19-red-teaming/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/20-customize-template/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/microsoft/azd-for-beginners/labs/21-new-template/</loc>
+         <lastmod>2025-11-05</lastmod>
     </url>
 </urlset>

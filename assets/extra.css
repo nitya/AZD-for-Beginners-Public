@@ -70,31 +70,31 @@
   background-color: #f9fafb;
 }
 
-/* Custom Lab Admonition with Beaker Icon and Orange-Red-Yellow Gradient */
+/* Custom Lab Admonition with Beaker Icon and Green Gradient */
 .md-typeset .admonition.lab,
 .md-typeset details.lab {
   border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(135deg, #FF6B35 0%, #F7931E 50%, #FDC830 100%) 1;
+  border-image: linear-gradient(135deg, #10B981 0%, #059669 50%, #047857 100%) 1;
 }
 
 .md-typeset .lab > .admonition-title,
 .md-typeset .lab > summary {
-  background: linear-gradient(135deg, rgba(255, 107, 53, 0.15) 0%, rgba(247, 147, 30, 0.15) 50%, rgba(253, 200, 48, 0.15) 100%);
-  border-image: linear-gradient(135deg, #FF6B35 0%, #F7931E 50%, #FDC830 100%) 1;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.1) 50%, rgba(4, 120, 87, 0.1) 100%);
+  border-image: linear-gradient(135deg, #10B981 0%, #059669 50%, #047857 100%) 1;
 }
 
-/* Light theme - orange-red beaker icon */
+/* Light theme - dark beaker icon */
 .md-typeset .lab > .admonition-title::before,
 .md-typeset .lab > summary::before {
-  background-color: #FF6B35;
+  background-color: #1f2937;
   -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M9 3h6v7l4.5 6.5a2 2 0 0 1-1.66 3.5H6.16a2 2 0 0 1-1.66-3.5L9 10V3z'/><path d='M9 3v3'/><path d='M15 3v3'/><circle cx='12' cy='15' r='1.5'/></svg>");
           mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M9 3h6v7l4.5 6.5a2 2 0 0 1-1.66 3.5H6.16a2 2 0 0 1-1.66-3.5L9 10V3z'/><path d='M9 3v3'/><path d='M15 3v3'/><circle cx='12' cy='15' r='1.5'/></svg>");
 }
 
-/* Dark theme - bright orange beaker icon */
+/* Dark theme - light beaker icon */
 [data-md-color-scheme="slate"] .md-typeset .lab > .admonition-title::before,
 [data-md-color-scheme="slate"] .md-typeset .lab > summary::before {
-  background-color: #F7931E;
+  background-color: #f9fafb;
 }
 
